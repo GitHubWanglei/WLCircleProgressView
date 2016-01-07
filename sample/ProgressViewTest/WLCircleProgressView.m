@@ -85,8 +85,12 @@
 }
 
 -(void)setProgressValue:(CGFloat)progressValue{
-    if (self.foreCircle) {
-        self.foreCircle.strokeEnd = progressValue;
+    if (self.foreCircle && progressValue >= 0 && progressValue <=1) {
+        if (progressValue == 1) {
+            [self removeFromSuperview];
+        }else{
+            self.foreCircle.strokeEnd = progressValue;
+        }
     }
 }
 
