@@ -1,5 +1,5 @@
 # WLCircleProgressView
-自定义环形进度条
+自定义环形进度条, 一句话即可添加此控件.
 
 示例代码:
 
@@ -9,3 +9,8 @@
     circleProgress1.progressValue = 0.2;
     [self.view addSubview:circleProgress1];
     self.progressView1 = circleProgress1;
+
+
+示例图片:
+
+![image](https://raw.githubusercontent.com/GitHubWanglei/WLCircleProgressView/master/image.png)
