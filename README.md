@@ -11,6 +11,6 @@
     self.progressView1 = circleProgress1;
 
 
-示例图片:
+效果图:
 
 ![image](https://raw.githubusercontent.com/GitHubWanglei/WLCircleProgressView/master/image.png)
