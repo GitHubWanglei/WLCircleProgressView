@@ -94,6 +94,10 @@
     }
 }
 
+-(CGFloat)progressValue{
+    return self.foreCircle.strokeEnd;
+}
+
 @end
 
 

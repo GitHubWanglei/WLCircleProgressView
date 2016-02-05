@@ -36,7 +36,6 @@
     WLCircleProgressView *circleProgress2 = [WLCircleProgressView viewWithFrame:CGRectMake(80, 200, 100, 100)
                                                                    circlesSize:CGRectMake(34, 2, 30, 30)];
     circleProgress2.layer.cornerRadius = 10;
-    
     //阴影
     circleProgress2.backgroundColor = [UIColor clearColor];
     circleProgress2.backCircle.shadowColor = [UIColor grayColor].CGColor;
